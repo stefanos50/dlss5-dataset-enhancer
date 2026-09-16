@@ -27,7 +27,7 @@ This is a Python entry point to the native Neuroframe engine, **not a pure-Pytho
 - Python 3.10 or newer, 64-bit.
 - A compatible NVIDIA RTX GPU and driver.
 - A complete Neuroframe runtime directory supporting **ABI version 6**.
-- Python packages: `numpy`, `Pillow`, and `PyYAML`; `opencv-python` is additionally required for `main.py`.
+- Python packages: `numpy`, `Pillow`, and `PyYAML`; `opencv-python`.
 
 The wrapper checks for these files in the runtime directory:
 
