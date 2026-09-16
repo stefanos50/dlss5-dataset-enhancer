@@ -1,5 +1,7 @@
 # DLSS Visual Enhancer for Synthetic Datasets
 
+<img width="1752" height="694" alt="69xjanbxx8ph1" src="https://github.com/user-attachments/assets/f82a8118-b551-442e-8809-4a097c92aec5" />
+
 A simplified, headless fork of [Merserk/dlss5-visual-enhancer](https://github.com/Merserk/dlss5-visual-enhancer), focused on enhancing synthetic images/videos for deep learning and computer vision workflows.
 
 This fork runs directly from Python, with configuration in a YAML file and no web interface. 
@@ -35,7 +37,7 @@ The wrapper checks for these files in the runtime directory:
 - `neuroframe_caller.dll`
 - `nvngx_dlssnr.dll`
 
-Use the complete `bin/runtime/dlssnr` directory from a matching [upstream release](https://github.com/Merserk/dlss5-visual-enhancer/releases), including its dependencies. The latest release is not guaranteed to match ABI 6. The wrapper references the interface from upstream commit [`c95c050`](https://github.com/Merserk/dlss5-visual-enhancer/blob/c95c050ead79b9409f140e0b2a66a7b91cffb258/src/core/neural_bridge.py).
+Use the complete `bin/runtime/dlssnr` directory from a matching [upstream release](https://github.com/Merserk/dlss5-visual-enhancer/releases), including its dependencies.
 
 ## Setup
 
