@@ -17,9 +17,7 @@ The goal is a smaller, scriptable workflow: configure the runtime, point to a da
 - Run image enhancement from a terminal or import it into a Python pipeline.
 - Configure GPU, style, intensity, and processing passes in `config.yaml`.
 - Process a folder of images/videos sequentially, saving each result immediately.
-- Accept file paths, Pillow images, or NumPy RGB/RGBA arrays through the Python API.
-- Preserve alpha and image dimensions after EXIF orientation is applied; convert embedded input color profiles to sRGB.
-- Optionally process videos frame by frame using `main.py`.
+- Accept file paths, Pillow images, videos, or NumPy RGB/RGBA arrays through the Python API.
 
 This is a Python entry point to the native Neuroframe engine, **not a pure-Python inference implementation**. It still requires the matching DLL runtime and compatible NVIDIA hardware. Gradio, PyTorch, and a separately installed CUDA toolkit are not required by these scripts.
 
