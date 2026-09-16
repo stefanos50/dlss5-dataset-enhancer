@@ -1,5 +1,0 @@
-# The complete runtime payload is distributed with packaged releases, not Git.
-# Keep this source directory permanently version-independent.
-*
-!.gitignore
-!README.md

@@ -1,0 +1,9 @@
+# Use forward slashes for Windows paths, or single-quote backslash paths.
+# Relative paths are resolved relative to this configuration file.
+dll_dir: "E:\\DLSS-5-ENHANCER\\bin\\runtime\\dlssnr"
+input: "./input_images"
+output: "./output_images"
+gpu: 0
+style: default       # default, natural, cinematic
+intensity: 2.0       # 0 to 2
+passes: 1            # 1 to 4
