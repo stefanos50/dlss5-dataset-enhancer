@@ -10,7 +10,7 @@ This fork runs directly from Python, with configuration in a YAML file and no we
 
 Interactive previews are useful for individual images/videos, but a web interface can add time and friction when processing large datasets. This fork was motivated by workflows where managing large batches through the interface became time-consuming or encountered crashes.
 
-The goal is a smaller, scriptable workflow: configure the runtime, point to a dataset, and write enhanced images/videos directly to disk. Removing the interface simplifies automation; it does not eliminate GPU memory limits or native runtime failures. No performance or crash-resilience benchmark is claimed.
+The goal is a smaller, scriptable workflow: configure the runtime, point to a dataset, and write enhanced images/videos directly to disk. Removing the interface simplifies automation; it does not eliminate GPU memory limits or native runtime failures.
 
 ## Features
 
